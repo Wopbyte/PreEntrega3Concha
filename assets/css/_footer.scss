@@ -1,0 +1,39 @@
+@use '_commons' as c;
+
+/*Pie de pagina*/
+.footer{
+    grid-area: footer;
+    background: radial-gradient(#D98324, #A40606);
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.footer p{
+
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer_container{
+    position: relative;
+
+    ul{
+        list-style: none;
+
+        li{
+            display: inline-block;
+            position: relative;
+        }
+        
+    }
+
+    img{
+        width: 50%;
+        border-radius: 150px;
+    }
+}
+/*Fin pie de pagina*/
